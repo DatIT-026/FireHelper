@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>FireHelper - Phần mềm</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+   <link rel="icon" href="./Capture.ico" type="image/x-ico"/>
+   <link rel="stylesheet" type="text/css" href="css.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script type="text/javascript" src="javascript.js"></script>
+
+<style>
+body {
+  font-family: Segoe UI;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 12%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+  padding-bottom: 17px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 20px;
+  font-family: Segoe UI;
+  padding: 11px;
+  border: 1px solid #ddd;
+  padding-left: 8px;
+}
+
+/* Style the navigation menu inside the left column */
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #0067b8;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav id='cssmenu'>
+   <div class="logo"><a href="index.html">FireHelper </a></div>
+   <div id="head-mobile"></div>
+   <div class="button"></div>
+   <ul>
+      <li><a href='./index.html'>HOME</a></li>
+      <li><a href='https://firehelper.tk/'>XEM PHIM</a></li>
+      
+       <li><a href='#'>HỆ ĐIỀU HÀNH</a>
+         <ul>
+            <li><a href='#p1'>Windows</a>
+               <ul>
+                  <li><a href='#sp1'>Windows 7</a></li>
+                  <li><a href='#'>Windows 10</a></li>
+		  <li><a href='#'>Windows 11</a></li>
+               </ul>
+            </li>
+            <li><a href='#'>Windows Lite</a>
+               <ul>
+                  <li><a href='#'>Windows 7 Lite</a></li>
+                  <li><a href='#'>Windows 10 Lite</a></li>
+               </ul>
+            </li>
+	    <li><a href='#'>Linux</a>
+            </li>
+         </ul>
+      </li>
+      <li><a href='./Apps.html'>PHẦN MỀM</a>
+         <ul>
+            <li><a href='./SAFW.html'>SAFW</a>
+            </li>
+            <li><a href='./CMIYC.html'>CMIYC</a>
+            </li>
+            <li><a href='./fixwifi.html'>Fix Wifi</a>
+            </li>
+         </ul>
+      </li>
+	<li><a href='./About.html'>ABOUT</a>
+	         <ul>
+	            <li><a href='./About.html'>About Me</a>
+	            </li>
+	            <li><a href='./Contact.html'>Contact & Support</a>
+	            </li>
+	         </ul>
+	      </li>
+	   </ul>
+</nav>
+
+<center class="ttweb">
+  <p class="ttweb-info">FireHelper - Phần Mềm</p>
+</center>
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search..." title="Type in a category">
+    <ul id="myMenu">
+      <li class="active"><a href="./SAFW.html">Setup and Fix Windows Tool</a></li>
+      <li><a href="./fixwifi.html">Fix Wifi</a></li>
+      <li><a href="./lemon.html">Lemon App</a></li>
+      <li><a href="./CMIYC.html">CMIYC</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:#ddd;">
+    <h2>Thông tin</h2>
+    <p>Đây là trang chứa danh sách các phần mềm của chúng tôi.</p>
+    <p>Nếu có thông tin thắc mắc vui lòng truy cập vào <a href="../Contact.html">FireHelper Support</a></p>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+<div class="footer-bar">
+    <span class="article-wrapper">
+        <span class="article-label">Liên hệ: </span>
+        <span class="article-link"><a href="https://firehelper.cf/">tiendatha2006@gmail.com</a></span>
+    </span>
+
+    <span class="copyright">Copyright ©FireHelper 2021</span>
+</div>
+    
+	<!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111897294468912");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	
+</body>
+</html>
