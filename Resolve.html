@@ -1,0 +1,235 @@
+<html><head>
+    <title>FireHelper - Phần mềm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all">
+    <link rel="icon" href="./RS1.png" type="image/x-ico">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+ 
+ <style>
+ body {
+   font-family: Segoe UI;
+   font-size: 20px;
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ /* Create a column layout with Flexbox */
+ .row {
+   display: flex;
+ }
+ 
+ /* Left column (menu) */
+ .left {
+   flex: 12%;
+   padding: 15px 0;
+ }
+ 
+ .left h2 {
+   padding-left: 8px;
+   padding-bottom: 17px;
+ }
+ 
+ /* Right column (page content) */
+ .right {
+   flex: 65%;
+   padding: 15px;
+ }
+ 
+ /* Style the search box */
+ #mySearch {
+   width: 100%;
+   font-size: 20px;
+   font-family: Segoe UI;
+   padding: 11px;
+   border: 1px solid #ddd;
+   padding-left: 8px;
+ }
+ 
+ /* Style the navigation menu inside the left column */
+ #myMenu {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ #myMenu li a {
+   padding: 12px;
+   text-decoration: none;
+   color: black;
+   display: block
+ }
+ 
+ #myMenu li a:hover {
+   background-color: #0067b8;
+ }
+ </style>
+ 
+ </head>
+ 
+ <body>
+ 
+ <nav id="cssmenu">
+    <div class="logo"><a href="index.html">FireHelper </a></div>
+    <div id="head-mobile"></div>
+    <div class="button"></div>
+    <ul style="">
+       <li><a href="./index.html">HOME</a></li>
+       <li><a href='https://firehelper.tk/'>XEM PHIM</a></li>
+       
+        <li class="has-sub"><span class="submenu-button"></span><a href="#">HỆ ĐIỀU HÀNH</a>
+          <ul style="">
+             <li class="has-sub"><span class="submenu-button"></span><a href="#p1">Windows</a>
+                <ul style="">
+                   <li><a href="#sp1">Windows 7</a></li>
+                   <li><a href="#">Windows 10</a></li>
+           <li><a href="#">Windows 11</a></li>
+                </ul>
+             </li>
+             <li class="has-sub"><span class="submenu-button"></span><a href="#">Windows Lite</a>
+                <ul style="">
+                   <li><a href="#">Windows 7 Lite</a></li>
+                   <li><a href="#">Windows 10 Lite</a></li>
+                </ul>
+             </li>
+         <li><a href="#">Linux</a>
+             </li>
+          </ul>
+       </li>
+       <li class="active has-sub"><span class="submenu-button"></span><a href="./Apps.html">PHẦN MỀM</a>
+          <ul style="">
+            <li><a href="./Resolve.html">Resolve</a>
+            </li>
+            <li><a href="./SAFW.html">SAFW</a>
+            </li>
+             <li><a href="./CMIYC.html">CMIYC</a>
+             </li>
+          </ul>
+       </li>
+     <li class="has-sub"><span class="submenu-button"></span><a href="./About.html">ABOUT</a>
+              <ul style="">
+                 <li><a href="./About.html">About Me</a>
+                 </li>
+                 <li><a href="./Contact.html">Contact &amp; Support</a>
+                 </li>
+              </ul>
+           </li>
+        </ul>
+ </nav>
+ 
+ <center class="ttweb">
+   <p class="ttweb-info">FireHelper - Phần Mềm</p>
+ </center>
+ 
+ <div class="row">
+   <div class="left" style="background-color:#bbb;">
+     <h2>Menu</h2>
+     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search..." title="Type in a category">
+     <ul id="myMenu">
+       <li class="active"><a href="./Resolve.html">Resolve</a></li>
+       <li><a href="./SAFW.html">Setup and Fix Windows Tool</a></li>
+       <li><a href="./CMIYC.html">CMIYC</a></li>
+       <li><a href="./lemon.html">Lemon App</a></li>
+       <li><a href="./fixwifi.html">Fix Wifi</a></li>
+     </ul>
+   </div>
+   
+   <div class="right" style="background-color:#ddd;">
+     <center>
+     <h2>Resolve - Chương trình tính toán</h2>
+     </center>
+     <div><div><span style="font-family: Segoe UI, serif; font-size: large;"><br></span></div><div><span style="font-family: times, times new roman, serif; font-size: x-large;"><b>Thông Tin</b></span></div><div><span style="font-family: Segoe UI, serif; font-size: large;">
+      Đây là chương trình tính toán và cân bằng phương trình hóa học. Hiện tại chương trình còn thô sơ nên chúng tôi đang cố gắng phát triển để chương trình trở nên có ích hơn cho mọi người.
+      <div><div><span style="font-family: Segoe UI, serif; font-size: large;"><br></span></div><div><span style="font-family: times, times new roman, serif; font-size: x-large;"><b>Chức năng chính</b></span></div><div><span style="font-family: Segoe UI, serif; font-size: large;"></span>
+           - Tìm ước, bội và số nguyên tố
+      <br >- Giải phương trình bậc hai
+      <br >- Giải phương trình bậc ba
+      <br >- Cân bằng Phương trình hóa học
+
+      <div><div><span style="font-family: Segoe UI, serif; font-size: large;"><br></span></div><div><span style="font-family: times, times new roman, serif; font-size: x-large;"><b>Thiết bị khuyến nghị</b></span></div><div><span style="font-family: Segoe UI, serif; font-size: large;">Windows 10 (x32/x64 bit)</span><br>
+      <span style="font-family: Segoe UI, serif; font-size: large;">Windows 11 (x64 bit)</span><br>
+
+     <div>
+         <div>
+             <span style="font-family: Segoe UI, serif; font-size: large;"><br></span></div><div><span style="font-family: times, times new roman, serif; font-size: x-large;"><b>Các phiên bản của phần mềm</b></span></div>
+             <div><span style="font-family: Segoe UI, serif; font-size: large;"><a href="NO LINK YET">Beta (03/10/2022)</a>:&nbsp;</span><span style="font-family: &quot;Segoe UI&quot; , &quot;Segoe UI&quot; , serif;font-size: large;">Hỗ trợ đến ngày 6/10/2022<br></span>
+     <div><span style="font-family: Segoe UI, serif; font-size: large;"><a href="https://www.mediafire.com/file/9ffnk6zgd52m02g/ReSolve-Alpha.zip/file">Alpha (01/10/2022)</a>:&nbsp;</span><span style="font-family: &quot;Segoe UI&quot; , &quot;Segoe UI&quot; , serif;font-size: large;">Hỗ trợ đến ngày 3/10/2022<br></span>
+ 
+ <div class="MsoNormal">
+ </div></div></div>
+ 
+     <center><p style="padding-top: 61px; padding-bottom: 60px;">Nếu có thông tin thắc mắc vui lòng truy cập vào <a href="../Contact.html">FireHelper Support</a>.</p></center>
+   </div>
+ </div>
+ 
+ <script>
+ function myFunction() {
+   var input, filter, ul, li, a, i;
+   input = document.getElementById("mySearch");
+   filter = input.value.toUpperCase();
+   ul = document.getElementById("myMenu");
+   li = ul.getElementsByTagName("li");
+   for (i = 0; i < li.length; i++) {
+     a = li[i].getElementsByTagName("a")[0];
+     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+       li[i].style.display = "";
+     } else {
+       li[i].style.display = "none";
+     }
+   }
+ }
+ </script>
+ 
+ <div class="footer-bar">
+     <span class="article-wrapper">
+         <span class="article-label">Liên hệ: </span>
+         <span class="article-link"><a href="https://firehelper.cf/">tiendatha2006@gmail.com</a></span>
+     </span>
+ 
+     <span class="copyright">Copyright ©FireHelper 2021</span>
+ </div>
+     
+ <!-- Code injected by live-server -->
+ <script type="text/javascript">
+     // <![CDATA[  <-- For SVG support
+     if ('WebSocket' in window) {
+         (function () {
+             function refreshCSS() {
+                 var sheets = [].slice.call(document.getElementsByTagName("link"));
+                 var head = document.getElementsByTagName("head")[0];
+                 for (var i = 0; i < sheets.length; ++i) {
+                     var elem = sheets[i];
+                     var parent = elem.parentElement || head;
+                     parent.removeChild(elem);
+                     var rel = elem.rel;
+                     if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                         var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                         elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                     }
+                     parent.appendChild(elem);
+                 }
+             }
+             var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+             var address = protocol + window.location.host + window.location.pathname + '/ws';
+             var socket = new WebSocket(address);
+             socket.onmessage = function (msg) {
+                 if (msg.data == 'reload') window.location.reload();
+                 else if (msg.data == 'refreshcss') refreshCSS();
+             };
+             if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                 console.log('Live reload enabled.');
+                 sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+             }
+         })();
+     }
+     else {
+         console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+     }
+     // ]]>
+ </script>
+ 
+ </body></html>
