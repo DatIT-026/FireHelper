@@ -9,6 +9,51 @@
    <link rel="stylesheet" type="text/css" href="css.css">
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script type="text/javascript" src="javascript.js"></script>
+
+   <style>
+
+.button23 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0067b8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 18px;
+  width: 165px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 45px;
+}
+
+.button23 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button23 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button23:hover span {
+  padding-right: 25px;
+}
+
+.button23:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+      </style>
+
 </head>
 <body>
 <nav id='cssmenu'>
@@ -16,7 +61,7 @@
    <div id="head-mobile"></div>
    <div class="button"></div>
    <ul>
-      <li class='active'><a href='./index.html'>HOME</a></li>
+      <li><a href='./index.html'>HOME</a></li>
 	<li><a href='./About.html'>ABOUT</a>
 	         <ul>
 	            <li><a href='./About.html'>About Me</a>
@@ -33,6 +78,10 @@
 
   <p class="ttweb-des">Lỗi! Có vẻ như bạn đang gặp sự cố!</p>
   <p class="ttweb-des">Xin hãy vui lòng thử lại!</p>
+
+<button class="button23" style="vertical-align:middle" onclick="history.back()"><span>Quay lại </span>
+</button>
+
 </center>
 
 <div class="footer-bar">
@@ -46,3 +95,5 @@
     
 </body>
 </html>
+
+
