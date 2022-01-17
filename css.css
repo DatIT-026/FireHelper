@@ -80,7 +80,7 @@ nav{width:100%;}
 .copyright{font-family:Segoe UI;font-size:17px;color:#fff;float:right;margin-right:10%}
 .copyright a, .copyright a:visited{text-decoration:none;color:#fff}
 
-@media screen and (max-width:700px){
+@media screen and (max-width:710px){
 .footer-bar{height:auto;line-height:23px;padding:15px;}
 .footer-bar .article-wrapper{margin-left:0;}
 .copyright{float:left;}
