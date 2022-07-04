@@ -6,4 +6,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule . /index.php [L]
 
-Redirect 301 /Software%20Repository.html/https://firehelper.cf/software
+RewriteRule ^FixWifi(.+)$ https://firehelper.cf/$1 [R=301,L]
