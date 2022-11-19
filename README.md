@@ -5,4 +5,5 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 - Dark Mode is available for End of Support devices.
 
-![preview img](/preview.png)
+![Preview1.PNG](/Preview1.PNG)
+![Preview2.PNG](/Preview2.PNG)
