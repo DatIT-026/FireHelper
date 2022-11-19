@@ -6,6 +6,6 @@
 - Dark Mode is available for End of Support devices.
 - 
 ### For desktop user interface
-<center>![Preview1.PNG](/Preview1.PNG)</center>
+![Preview1.PNG](/Preview1.PNG)</center>
 ### For mobile user interface
 ![Preview2.PNG](/Preview2.PNG)
