@@ -7,5 +7,3 @@
 
 ### For desktop user interface
 ![Preview1.PNG](/Preview1.PNG)
-### For mobile user interface
-![Preview2.PNG](/Preview2.PNG)
