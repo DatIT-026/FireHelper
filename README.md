@@ -1,9 +1,8 @@
 # Website Project Completed
 ### Website Project Completed ✔
-- Responsive Car website Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
+- Responsive Firehelper website Using HTML CSS & JavaScript
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Dark Mode is available for End of Support devices.
 
 ![preview img](/preview.png)
