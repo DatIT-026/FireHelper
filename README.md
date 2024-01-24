@@ -8,5 +8,6 @@
 ### For desktop user interface
 ![Preview1.PNG](/Preview1.PNG)
 
-### Link (Expiration date: 02/28/2024)
+### Explore More
 https://firehelper.cf/
+(Expiration date: 02/28/2024)
