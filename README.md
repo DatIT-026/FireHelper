@@ -9,9 +9,8 @@
 ![Preview1.PNG](/Preview1.PNG)
 
 ### Explore More
-Explore our Website through this link: 
+Explore our Website through this link (Expiration date: 02/28/2024): 
 https://firehelper.cf/
-  
-(Expiration date: 02/28/2024)
 
-or [here](https://datit-026.github.io/FireHelper_Portfolio/)
+
+or [here](https://datit-026.github.io/FireHelper_Portfolio/).
