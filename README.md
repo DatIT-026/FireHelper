@@ -12,4 +12,4 @@ After 40 months, security updates and technical support for the FireHelper_Portf
 
 ### Explore More
 Explore our Website through this link (Expiration date: 02/28/2024): 
-https://firehelper.cf/
+(https://firehelper.cf/)[https://datit-026.github.io/DatIT/404]
